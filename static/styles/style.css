@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    cursor: crosshair;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    text-align: center;
+}
+button{
+    background-color: #E9806E;
+}
+button:hover{
+    background-color: aqua;
+}
+button a{
+    color: #9AE19D 
+}
+
+
+.parentList{
+    column-count: 60;
+    column-gap: 0px;
+}
+.invisible:hover{
+    background-color: white;
+}
+.invisible{
+    transition-duration: 1s;
+    border-radius: 50%;
+
+    background-color: black;
+    color: lime;
+    margin: 0;
+    list-style: none;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

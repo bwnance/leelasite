@@ -1,0 +1,33 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Hey! Thanks for coming to my homepage!</h1>
+
+<form>
+    <h2>Why have you come here?!?!</h2>
+    <label>
+        <input type="radio" name="why" value="court">
+        court ordered
+    </label>
+    <label>
+        <input type="radio" name="why" value="for">
+        for fun
+    </label>
+    <label>
+        <input type="radio" name="why" value="surfing">
+        surfing the web
+    </label>
+    <label>
+        <input type="radio" name="why" value="your">
+        your mother told you too
+    </label>
+
+    <input type="submit" value="SUBMIT">
+     
+</form>
+<ul>
+    <button><a href='/about'>About</a></button>
+    <button><a href='/contact'>Contact</a></button>
+</ul>
+{% endblock %}
