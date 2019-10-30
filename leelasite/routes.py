@@ -35,6 +35,9 @@ def page():
 @bp.route('/secret')
 def brandon():
     return render_template("secret.html") 
+@bp.route('/submit')
+def submit():
+    return render_template("submit.html") 
 
 @bp.route('/result', methods=['POST', 'GET'])
 def result():
